@@ -1,1 +1,1 @@
-# cammimic.github.io
+Website to share details about CamMimic 
