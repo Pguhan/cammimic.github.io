@@ -1,1 +1,3 @@
-Website to share details about CamMimic 
+# Introducing CamMimic! 
+
+(Wesbite style borrowed from [Nerfies](https://nerfies.github.io))
