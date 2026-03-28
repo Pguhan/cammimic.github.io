@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="CamMimic: Zero-Shot Image to Camera Motion Personalized Video Generation using Diffusion Models">
+        content="Zero-Shot Personalized Camera Motion Control for Image-to-Video Synthesis">
   <meta name="keywords" content="camera motion, video generation, diffusion models">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CamMimic: Zero-Shot Image to Camera Motion Personalized Video Generation using Diffusion Models</title>
+  <title>Zero-Shot Personalized Camera Motion Control for Image-to-Video Synthesis</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -88,7 +88,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">CamMimic: Zero-Shot Image to Camera Motion Personalized Video Generation using Diffusion Models</h1>
+          <h1 class="title is-1 publication-title">Zero-Shot Personalized Camera Motion Control for Image-to-Video Synthesis</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://www.linkedin.com/in/pooja-guhan/">Pooja Guhan</a><sup>1</sup>,</span>
@@ -252,15 +252,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce CamMimic, an innovative algorithm tailored for dynamic video editing needs. 
-            It is designed to seamlessly transfer the camera motion observed in a given reference video onto any scene of the user's choice in a zero-shot manner without requiring any additional data. 
-          </p>
-          <p>
-            Our algorithm achieves this using a two-phase strategy by leveraging a text-to-video diffusion model. In the first phase, we develop a multi-concept learning method using a combination of LoRA layers and an orthogonality loss to capture and understand the underlying spatial-temporal characteristics of the reference video as well as the spatial features of the user's desired scene. 
-            The second phase proposes a unique homography-based refinement strategy to enhance the temporal and spatial alignment of the generated video. 
-          </p>
-          <p>
-            We demonstrate the efficacy of our method through experiments conducted on a dataset containing combinations of diverse scenes and reference videos containing a variety of camera motions. In the absence of an established metric for assessing camera motion transfer between unrelated scenes, we propose CameraScore, a novel metric that utilizes homography representations to measure camera motion similarity between the reference and generated videos. Extensive quantitative and qualitative evaluations demonstrate that our approach generates high-quality, motion-enhanced videos. Additionally, a user study reveals that 70.31% of participants preferred our method for scene preservation, while 90.45% favored it for motion transfer. We hope this work lays the foundation for future advancements in camera motion transfer across different scenes.
+            Specifying nuanced and compelling camera motion remains a significant hurdle for non-expert creators using generative tools, creating an “expressive gap” where generic text prompts fail to capture cinematic vision. This barrier limits individual creativity and restricts the accessibility of cinematic production for small-scale industries and educational content creators. To address this, we present a zero-shot diffusion-based framework for personalized camera motion control, enabling the transfer of cinematic movements from a single reference video onto a user-provided static image without requiring 3D data, predefined trajectories, or complex graphical interfaces. Our technical contribution involves an inference-time optimization strategy using dual Low-Rank Adaptation (LoRA) networks, with an orthogonality regularizer that encourages separation between spatial appearance and temporal motion updates, alongside a homography-based refinement strategy that provides weak geometric guidance. We evaluate our approach using a new metric, CameraScore, and two distinct user studies. A 72-participant perceptual study demonstrates that our method significantly outperforms existing baselines in motion accuracy (90.45% preference) and scene preservation (70.31% preference). Furthermore, a 12-participant task-based interaction study confirms that our workflow significantly improves usability and creative control (p < 0.001) compared to standard text- or preset-based prompts. We hope this work lays a foundation for future advancements in camera motion transfer across diverse scenes.
           </p>
         </div>
       </div>
@@ -268,7 +260,7 @@
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -277,7 +269,7 @@
       </div>
     </div>
     <!--/ Paper video. -->
-  </div>
+  </div> -->
 </section>
 
 
